@@ -4,6 +4,8 @@ const userInput = document.getElementById("userInput");
 const robotAvatar = document.getElementById("robotAvatar");
 const robotStatus = document.getElementById("robotStatus");
 const exampleButtons = document.querySelectorAll(".example-btn");
+const accordionItems = document.querySelectorAll("[data-accordion-item]");
+const accordionTriggers = document.querySelectorAll("[data-accordion-trigger]");
 
 let typingMessageElement = null;
 let readingTimer = null;
@@ -56,9 +58,27 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+function setupAccordion() {
+  accordionTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", () => {
+      const currentItem = trigger.closest("[data-accordion-item]");
+      const isAlreadyActive = currentItem.classList.contains("active");
+
+      accordionItems.forEach((item) => {
+        item.classList.remove("active");
+      });
+
+      if (!isAlreadyActive) {
+        currentItem.classList.add("active");
+      }
+    });
+  });
+}
+
 async function initializeApp() {
+  setupAccordion();
+
   setRobotState("robot-typing", "Cargando modelo NLP y base biográfica...");
-  addMessage("Cargando modelo NLP y base biográfica...", "bot");
 
   try {
     await Promise.all([
@@ -67,7 +87,6 @@ async function initializeApp() {
     ]);
 
     setRobotState("robot-idle", "Robot listo para conversar.");
-    addMessage("Modelo cargado correctamente. Ya puedes preguntarme sobre Luis.", "bot");
   } catch (error) {
     console.error(error);
     setRobotState("robot-idle", "Error al cargar recursos.");

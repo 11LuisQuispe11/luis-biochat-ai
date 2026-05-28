@@ -15,78 +15,138 @@
 </head>
 
 <body>
-  <main class="page">
-    <section class="hero">
-      <div class="hero-badge">
-        <span class="hero-icon">🤖</span>
-        <span>Portafolio IA · NLP Model</span>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-card">
+        <div class="brand-icon">🤖</div>
+        <div>
+          <p class="eyebrow">Portafolio IA</p>
+          <h1>Luis BioChat AI</h1>
+          <p>Chatbot biográfico con modelo NLP entrenado.</p>
+        </div>
       </div>
 
-      <h1>Luis BioChat AI</h1>
+      <section class="accordion">
+        <article class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" data-accordion-trigger>
+            <span>
+              <strong>Arquitectura del modelo</strong>
+              <small>Pipeline NLP local</small>
+            </span>
+            <span class="accordion-arrow">⌄</span>
+          </button>
 
-      <p class="subtitle">
-        Chatbot biográfico con modelo NLP entrenado para responder preguntas sobre Luis Quispe Inquil.
-      </p>
-    </section>
+          <div class="accordion-content">
+            <div class="architecture-flow">
+              <article class="architecture-step">
+                <span class="step-number">01</span>
+                <div>
+                  <h3>Pregunta del usuario</h3>
+                  <p><strong>Qué significa:</strong> Entrada escrita en lenguaje natural.</p>
+                  <p><strong>Uso:</strong> Capturar lo que el visitante quiere saber sobre Luis.</p>
+                </div>
+              </article>
 
-    <section class="workspace">
-      <aside class="panel architecture-panel">
-        <div class="panel-header">
-          <p class="eyebrow">Arquitectura</p>
-          <h2>Modelo de IA</h2>
-          <p>
-            Flujo local de inferencia: la pregunta se transforma, se clasifica y se conecta con la base biográfica.
-          </p>
-        </div>
+              <article class="architecture-step">
+                <span class="step-number">02</span>
+                <div>
+                  <h3>Normalización NLP</h3>
+                  <p><strong>Qué significa:</strong> Limpieza de texto, tildes, signos y mayúsculas.</p>
+                  <p><strong>Uso:</strong> Reducir ruido antes del modelo.</p>
+                </div>
+              </article>
 
-        <div class="architecture-flow">
-          <article class="architecture-step">
-            <span class="step-number">01</span>
-            <div>
-              <h3>Pregunta del usuario</h3>
-              <p><strong>Qué significa:</strong> Entrada escrita en lenguaje natural.</p>
-              <p><strong>Uso:</strong> Capturar lo que el visitante quiere saber sobre Luis.</p>
+              <article class="architecture-step">
+                <span class="step-number">03</span>
+                <div>
+                  <h3>TF-IDF</h3>
+                  <p><strong>Qué significa:</strong> Conversión del texto a vectores numéricos.</p>
+                  <p><strong>Uso:</strong> Representar la pregunta para clasificación.</p>
+                </div>
+              </article>
+
+              <article class="architecture-step">
+                <span class="step-number">04</span>
+                <div>
+                  <h3>Regresión logística</h3>
+                  <p><strong>Qué significa:</strong> Modelo supervisado de clasificación.</p>
+                  <p><strong>Uso:</strong> Detectar la intención más probable.</p>
+                </div>
+              </article>
+
+              <article class="architecture-step">
+                <span class="step-number">05</span>
+                <div>
+                  <h3>Base biográfica JSON</h3>
+                  <p><strong>Qué significa:</strong> Conocimiento estructurado sobre Luis.</p>
+                  <p><strong>Uso:</strong> Recuperar una respuesta controlada.</p>
+                </div>
+              </article>
             </div>
-          </article>
+          </div>
+        </article>
 
-          <article class="architecture-step">
-            <span class="step-number">02</span>
-            <div>
-              <h3>Normalización NLP</h3>
-              <p><strong>Qué significa:</strong> Limpieza de texto, tildes, signos y mayúsculas.</p>
-              <p><strong>Uso:</strong> Reducir ruido antes de aplicar el modelo.</p>
+        <article class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" data-accordion-trigger>
+            <span>
+              <strong>Ejemplos de uso</strong>
+              <small>Preguntas sugeridas</small>
+            </span>
+            <span class="accordion-arrow">⌄</span>
+          </button>
+
+          <div class="accordion-content">
+            <div class="example-group">
+              <h3>Perfil</h3>
+              <button class="example-btn" data-question="¿Quién es Luis Quispe Inquil?">
+                ¿Quién es Luis Quispe Inquil?
+              </button>
+              <button class="example-btn" data-question="¿Cuál es el perfil de Luis como data scientist?">
+                ¿Cuál es su perfil como data scientist?
+              </button>
             </div>
-          </article>
 
-          <article class="architecture-step">
-            <span class="step-number">03</span>
-            <div>
-              <h3>TF-IDF</h3>
-              <p><strong>Qué significa:</strong> Conversión del texto a números según relevancia de palabras.</p>
-              <p><strong>Uso:</strong> Representar preguntas como vectores comparables.</p>
+            <div class="example-group">
+              <h3>Habilidades</h3>
+              <button class="example-btn" data-question="¿Luis conoce Python?">
+                ¿Luis conoce Python?
+              </button>
+              <button class="example-btn" data-question="¿Luis maneja SQL?">
+                ¿Luis maneja SQL?
+              </button>
+              <button class="example-btn" data-question="¿Luis sabe machine learning?">
+                ¿Luis sabe machine learning?
+              </button>
             </div>
-          </article>
 
-          <article class="architecture-step">
-            <span class="step-number">04</span>
-            <div>
-              <h3>Regresión logística</h3>
-              <p><strong>Qué significa:</strong> Modelo supervisado que clasifica la intención.</p>
-              <p><strong>Uso:</strong> Decidir qué tema responde mejor a la pregunta.</p>
+            <div class="example-group">
+              <h3>Experiencia</h3>
+              <button class="example-btn" data-question="¿Cuánta experiencia tiene Luis?">
+                ¿Cuánta experiencia tiene Luis?
+              </button>
+              <button class="example-btn" data-question="¿Luis ha trabajado en banca?">
+                ¿Luis ha trabajado en banca?
+              </button>
+              <button class="example-btn" data-question="¿Luis tiene experiencia en minería?">
+                ¿Luis tiene experiencia en minería?
+              </button>
             </div>
-          </article>
 
-          <article class="architecture-step">
-            <span class="step-number">05</span>
-            <div>
-              <h3>Base biográfica JSON</h3>
-              <p><strong>Qué significa:</strong> Conocimiento estructurado sobre Luis.</p>
-              <p><strong>Uso:</strong> Recuperar una respuesta controlada y profesional.</p>
+            <div class="example-group">
+              <h3>Valor profesional</h3>
+              <button class="example-btn" data-question="¿Por qué contratar a Luis?">
+                ¿Por qué contratar a Luis?
+              </button>
+              <button class="example-btn" data-question="¿Qué proyectos predictivos tiene Luis?">
+                ¿Qué proyectos predictivos tiene Luis?
+              </button>
             </div>
-          </article>
-        </div>
-      </aside>
+          </div>
+        </article>
+      </section>
+    </aside>
 
+    <section class="main-chat">
       <section class="chat-card">
         <div class="chat-header">
           <div>
@@ -135,62 +195,6 @@
           <button type="submit">Enviar</button>
         </form>
       </section>
-
-      <aside class="panel examples-panel">
-        <div class="panel-header">
-          <p class="eyebrow">Guía de uso</p>
-          <h2>Ejemplos</h2>
-          <p>
-            Usa estas preguntas para probar cómo el modelo detecta intenciones y recupera respuestas.
-          </p>
-        </div>
-
-        <div class="example-group">
-          <h3>Perfil</h3>
-          <button class="example-btn" data-question="¿Quién es Luis Quispe Inquil?">
-            ¿Quién es Luis Quispe Inquil?
-          </button>
-          <button class="example-btn" data-question="¿Cuál es el perfil de Luis como data scientist?">
-            ¿Cuál es su perfil como data scientist?
-          </button>
-        </div>
-
-        <div class="example-group">
-          <h3>Habilidades</h3>
-          <button class="example-btn" data-question="¿Luis conoce Python?">
-            ¿Luis conoce Python?
-          </button>
-          <button class="example-btn" data-question="¿Luis maneja SQL?">
-            ¿Luis maneja SQL?
-          </button>
-          <button class="example-btn" data-question="¿Luis sabe machine learning?">
-            ¿Luis sabe machine learning?
-          </button>
-        </div>
-
-        <div class="example-group">
-          <h3>Experiencia</h3>
-          <button class="example-btn" data-question="¿Cuánta experiencia tiene Luis?">
-            ¿Cuánta experiencia tiene Luis?
-          </button>
-          <button class="example-btn" data-question="¿Luis ha trabajado en banca?">
-            ¿Luis ha trabajado en banca?
-          </button>
-          <button class="example-btn" data-question="¿Luis tiene experiencia en minería?">
-            ¿Luis tiene experiencia en minería?
-          </button>
-        </div>
-
-        <div class="example-group">
-          <h3>Valor profesional</h3>
-          <button class="example-btn" data-question="¿Por qué contratar a Luis?">
-            ¿Por qué contratar a Luis?
-          </button>
-          <button class="example-btn" data-question="¿Qué proyectos predictivos tiene Luis?">
-            ¿Qué proyectos predictivos tiene Luis?
-          </button>
-        </div>
-      </aside>
     </section>
   </main>
 

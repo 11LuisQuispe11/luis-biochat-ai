@@ -87,8 +87,145 @@
     "titulo": "CV profesional",
     "respuesta": "El CV de Luis resume su experiencia en datos, automatización, banca, minería, Python, SQL, Power BI, cloud e inteligencia artificial aplicada. Desde el portafolio se puede habilitar un botón para descargar o visualizar su CV actualizado."
   },
+  "experiencia_las_bambas_actual": {
+  "titulo": "Experiencia actual en Minera Las Bambas",
+  "respuesta": "Luis trabaja como Científico de Datos en Minera Las Bambas desde marzo de 2026, participando en iniciativas de Data Science y analítica avanzada para operaciones mina. Su trabajo se enfoca en pipelines, notebooks, Blob Storage, servicios de Azure, modelos de Machine Learning como Random Forest, CatBoost y XGBoost, informes analíticos para toma de decisiones gerenciales y participación en el proyecto Mine to Mill orientado a trazabilidad y predicción del comportamiento del mineral."
+  },
+  "experiencia_las_bambas_analista": {
+    "titulo": "Experiencia previa como Analista de Datos en Minera Las Bambas",
+    "respuesta": "Antes de su rol actual como Científico de Datos, Luis trabajó como Analista de Datos en Minera Las Bambas entre noviembre de 2024 y mayo de 2025. En ese periodo participó en soluciones analíticas para operaciones mina, manejo de Azure SQL, Azure Databricks, Azure Data Factory y Azure Data Lake, desarrollo de modelos de Machine Learning para comportamiento de máquinas mineras, creación de inputs para algoritmos predictivos y lógicas de trazabilidad de mineral dentro del proyecto Mine to Mill."
+  },
+  "experiencia_banbif_senior": {
+    "titulo": "Experiencia en BanBif",
+    "respuesta": "Luis trabajó en BanBif como Analista de Datos Senior / Senior Analytics entre mayo de 2025 y marzo de 2026, dentro del ámbito de banca, riesgos y cobranzas. Fue responsable de soluciones analíticas para Analítica y Riesgos, manejo de bases de datos en SQL Server y Oracle Database, automatizaciones con Python, modelos predictivos para comportamiento de clientes en cobranzas, lógicas para pilotos de optimización de riesgos y procesos ETL mediante SSIS y Visual Studio."
+  },
+  "experiencia_tebca": {
+    "titulo": "Experiencia en Tebca Perú",
+    "respuesta": "Luis trabajó como Analista de Data en Tebca Perú - Grupo Intercorp entre abril de 2024 y octubre de 2024. Desarrolló reportes y soluciones de Business Intelligence para operaciones y tecnología en el sector financiero, mantuvo reportes en Power BI Service usando DAX y Power Query, integró flujos con web scraping, Python, SQL y ETL, y automatizó procesos con WinSCP, Excel, macros, SFTP y software de escritorio."
+  },
+  "experiencia_ey": {
+    "titulo": "Experiencia en EY Perú",
+    "respuesta": "Luis trabajó como Compliance Assistant en EY Perú entre febrero de 2024 y abril de 2024. En este rol participó en procesos ETL con Python y Power BI, automatización de procesos, elaboración de dashboards ejecutivos en Power BI, manejo de SQL Server, procedimientos almacenados, subconsultas y servicios de Azure como Data Factory, Data Lake y SQL Database."
+  },
+  "experiencia_unmsm_bi": {
+    "titulo": "Experiencia en Universidad Nacional Mayor de San Marcos",
+    "respuesta": "Luis trabajó como Analista de Datos y BI en la Universidad Nacional Mayor de San Marcos entre enero de 2023 y enero/febrero de 2024. Fue responsable de soluciones de Business Intelligence, automatización y desarrollo de proyectos de software orientados a la gestión de información institucional. Trabajó con Python, Power BI, SQL Server, PostgreSQL, Oracle Database, Power BI Gateway, Power BI Service y procesos ETL."
+  },
+  "experiencia_rimac": {
+    "titulo": "Experiencia en Rimac Seguros",
+    "respuesta": "Luis trabajó como Practicante de Estrategia y Control en Rimac Seguros entre agosto de 2022 y abril de 2023. Participó en control, reporting, dashboards ejecutivos con Power BI, modelamiento de datos, SQL Server, procedimientos almacenados, subconsultas y manejo de bases de datos en la nube con GCP y Azure."
+  },
+  "experiencia_ieee": {
+    "titulo": "Experiencia en IEEE Computer Society UNMSM",
+    "respuesta": "Luis participó en IEEE Computer Society UNMSM como colaborador y luego como director. Como director, lideró proyectos de investigación tecnológica, capacitó a integrantes en temas de Inteligencia Artificial, coordinó actividades académicas y tecnológicas, y fortaleció habilidades de liderazgo, comunicación y gestión de equipos."
+  },
+  "experiencia_trini": {
+    "titulo": "Voluntariado en Organización Juvenil Trini",
+    "respuesta": "Luis participó como voluntario en la Organización Juvenil Trini, un proyecto estudiantil multidisciplinario orientado a promover una cultura de cero tolerancia frente a la violencia de género en la Universidad Nacional Mayor de San Marcos mediante cultura, educación y espacios virtuales. En esta experiencia apoyó en organización, comunicación, gestión de actividades y uso de herramientas como Excel y Power BI."
+  },
+  "experiencia_dp_world": {
+    "titulo": "Experiencia técnica en DP World",
+    "respuesta": "Luis realizó una práctica de Electrotecnia Industrial en DP World Callao entre enero y junio de 2018, apoyando en el correcto funcionamiento de maquinarias eléctricas y electrónicas dentro del Puerto del Callao. Esta experiencia forma parte de su base técnica previa a su especialización en datos y software."
+  },
+  "educacion_doctorado": {
+    "titulo": "Doctorado en Inteligencia Artificial",
+    "respuesta": "Luis es estudiante de Doctorado en Inteligencia Artificial / Deep Tech con enfoque en IA en la Universidad Nacional Mayor de San Marcos. Esta formación refuerza su orientación hacia investigación, inteligencia artificial aplicada, tecnologías avanzadas y desarrollo de soluciones basadas en datos."
+  },
+  "educacion_maestria": {
+    "titulo": "Maestría en Inteligencia Artificial",
+    "respuesta": "Luis es Magíster en Inteligencia Artificial por la Universidad Internacional de La Rioja, España. Esta formación complementa su experiencia práctica en ciencia de datos, machine learning, modelos predictivos, deep learning y soluciones de inteligencia artificial aplicadas a negocio."
+  },
+  "educacion_bachiller": {
+    "titulo": "Bachiller en Ingeniería de Software",
+    "respuesta": "Luis es Bachiller en Ingeniería de Software por la Universidad Nacional Mayor de San Marcos. Esta formación le da una base sólida en programación, ingeniería de software, bases de datos, análisis, diseño de soluciones y desarrollo tecnológico."
+  },
+  "educacion_tecsup": {
+    "titulo": "Técnico en Electrotecnia Industrial",
+    "respuesta": "Luis también es Técnico Titulado en Electrotecnia Industrial por TECSUP. Esta formación técnica temprana le permitió desarrollar una comprensión práctica de sistemas eléctricos, electrónicos y entornos industriales, lo que complementa su experiencia posterior en minería, operaciones y datos."
+  },
+  "merito_academico": {
+    "titulo": "Mérito académico",
+    "respuesta": "Luis alcanzó el tercio superior en la Escuela Profesional de Ingeniería de Software de la Universidad Nacional Mayor de San Marcos, ocupando el puesto 11 de 47 egresados, con promedio ponderado de 15.434 según constancia de orden de mérito."
+  },
+  "habilidades_azure": {
+    "titulo": "Azure y servicios cloud",
+    "respuesta": "Luis tiene experiencia trabajando con servicios de Azure como Azure SQL, Azure Databricks, Azure Data Factory, Azure Data Lake, Azure Blob Storage y Azure SQL Database. Ha usado estos servicios para procesamiento, integración, explotación de datos operativos, pipelines y soluciones analíticas."
+  },
+  "habilidades_power_bi": {
+    "titulo": "Power BI y Business Intelligence",
+    "respuesta": "Luis tiene experiencia desarrollando dashboards ejecutivos y soluciones de Business Intelligence con Power BI, Power BI Service, Power BI Gateway, Power Query, DAX y Power BI Web. Su enfoque está en convertir datos complejos en indicadores claros, reportes ejecutivos y visualizaciones útiles para la toma de decisiones."
+  },
+  "habilidades_etl": {
+    "titulo": "ETL e integración de datos",
+    "respuesta": "Luis trabaja con procesos ETL usando Python, SSIS, Visual Studio, Power BI, Azure Data Factory, SQL y servicios cloud. Ha desarrollado flujos de extracción, transformación, validación, integración y preparación de datos para analítica, reportería y modelos predictivos."
+  },
+  "habilidades_automatizacion": {
+    "titulo": "Automatización de procesos",
+    "respuesta": "Luis desarrolla automatizaciones con Python para reducir trabajo manual, optimizar procesos analíticos y operativos, procesar archivos, interactuar con Excel, macros, WinSCP, SFTP, web scraping y software de escritorio. Su enfoque es transformar tareas repetitivas en procesos eficientes, controlados y reutilizables."
+  },
+  "habilidades_web_scraping": {
+    "titulo": "Web scraping",
+    "respuesta": "Luis tiene experiencia construyendo flujos de datos que integran web scraping con Python, SQL y procesos ETL. Ha trabajado con herramientas como Selenium para extraer, estructurar y explotar información desde fuentes web cuando el caso de negocio lo requiere."
+  },
+  "habilidades_deep_learning": {
+    "titulo": "Deep Learning",
+    "respuesta": "Luis tiene conocimientos y experiencia aplicada en redes neuronales y deep learning, incluyendo herramientas como TensorFlow, Keras, PyTorch y modelos LSTM. Su enfoque está orientado al entrenamiento y evaluación de modelos para predicción y análisis aplicado."
+  },
+  "habilidades_bases_datos": {
+    "titulo": "Bases de datos",
+    "respuesta": "Luis trabaja con bases de datos como SQL Server, Oracle Database, PostgreSQL, Azure SQL y BigQuery. Tiene experiencia en modelamiento, explotación, consultas, procedimientos almacenados, subconsultas, funciones, triggers, auditoría, integración y validación de información."
+  },
+  "habilidades_data_storytelling": {
+    "titulo": "Storytelling con datos",
+    "respuesta": "Luis comunica hallazgos analíticos mediante dashboards, informes ejecutivos y visualizaciones orientadas a toma de decisiones. Su enfoque combina análisis técnico con comunicación clara para convertir datos complejos en información accionable para líderes y áreas de negocio."
+  },
+  "proyecto_mine_to_mill": {
+    "titulo": "Proyecto Mine to Mill",
+    "respuesta": "Luis participa en el proyecto Mine to Mill en Minera Las Bambas, orientado a mejorar la trazabilidad del mineral y predecir su comportamiento. En este contexto integra variables operativas, geológicas y de proceso, desarrolla pipelines, notebooks, modelos de Machine Learning e insumos analíticos aplicables a operaciones mina."
+  },
+  "proyecto_biochat": {
+    "titulo": "Luis BioChat AI",
+    "respuesta": "Luis desarrolló y desplegó Luis BioChat AI, un chatbot biográfico interactivo para su portafolio profesional. El sistema utiliza un modelo NLP entrenado en Python para clasificación de intenciones, normalización de texto, vectorización TF-IDF, Regresión Logística, base de conocimiento JSON, inferencia en JavaScript y despliegue gratuito en GitHub Pages sin backend ni servicios de pago."
+  },
+  "proyecto_fiscalia_datos_abiertos": {
+    "titulo": "Proyecto con datos abiertos de Fiscalía",
+    "respuesta": "Luis compartió públicamente un análisis realizado con datos abiertos de la Plataforma Nacional de Datos Abiertos del Perú sobre el Ministerio Público - Fiscalía de la Nación. El análisis incluyó indicadores de casos, delitos y fiscales por departamento fiscal, así como eficiencia fiscal promedio nacional entre 2019 y 2023."
+  },
+  "perfil_liderazgo": {
+    "titulo": "Liderazgo y comunicación",
+    "respuesta": "Luis ha desarrollado habilidades de liderazgo y comunicación mediante experiencias como director en IEEE Computer Society UNMSM, voluntariado en Organización Juvenil Trini, elaboración de informes ejecutivos y comunicación de hallazgos para toma de decisiones gerenciales. Su perfil combina capacidad técnica con coordinación, capacitación y gestión de equipos."
+  },
+  "perfil_multisectorial": {
+    "titulo": "Experiencia multisectorial",
+    "respuesta": "Luis tiene experiencia en sectores financiero, minero, consultoría, educación, seguros, tecnología e industria. Esta trayectoria multisectorial le permite adaptar soluciones de datos a distintos contextos de negocio, desde riesgos y cobranzas hasta operaciones mineras, BI institucional, automatización y analítica ejecutiva."
+  },
+  "perfil_consultoria_educacion": {
+    "titulo": "Consultoría y educación",
+    "respuesta": "Luis ha trabajado en contextos de consultoría y educación, incluyendo EY Perú y la Universidad Nacional Mayor de San Marcos. En estos entornos participó en procesos ETL, automatización, dashboards ejecutivos, modelamiento de bases de datos, desarrollo de proyectos de software y soluciones de Business Intelligence."
+  },
+  "idiomas": {
+    "titulo": "Idiomas",
+    "respuesta": "Luis cuenta con inglés avanzado según su perfil de LinkedIn y formación en la Asociación Cultural Peruano Británica. Esta competencia complementa su perfil técnico, especialmente para documentación, herramientas internacionales, investigación, certificaciones y comunicación profesional."
+  },
+  "certificaciones_detalle": {
+    "titulo": "Certificaciones",
+    "respuesta": "Luis cuenta con certificaciones y formación complementaria como Power BI Intermedio, Scrum Fundamentals Certified, trabajo en equipo, SQL Server e inglés avanzado según su perfil de LinkedIn. Además, mantiene un enfoque de aprendizaje continuo en inteligencia artificial, datos, cloud y analítica aplicada."
+  },
+  "trayectoria_laboral": {
+  "titulo": "Trayectoria laboral",
+  "respuesta": "Luis ha trabajado en distintos sectores como minería, banca, consultoría, educación, seguros, tecnología e industria. Su trayectoria incluye experiencia como Científico de Datos en Minera Las Bambas, Analista de Datos Senior / Senior Analytics en BanBif, Analista de Data en Tebca Perú - Grupo Intercorp, Compliance Assistant en EY Perú, Analista de Datos y BI en la Universidad Nacional Mayor de San Marcos, Practicante de Estrategia y Control en Rimac Seguros, Bolsista de Datos en UNMSM y experiencia técnica inicial en DP World Callao. Esta trayectoria le permite combinar ciencia de datos, ingeniería de datos, automatización, BI, machine learning y entendimiento de negocio."
+  },
+  "experiencia_anios": {
+    "titulo": "Años de experiencia",
+    "respuesta": "Luis cuenta con más de 4 años de experiencia profesional en datos, analítica, automatización, business intelligence, machine learning e ingeniería de datos, con participación en sectores financiero, minero, consultoría, educación y seguros. Su experiencia se ha enfocado en construir soluciones con Python, SQL, Power BI, Azure, procesos ETL, modelos predictivos y automatización orientada a negocio."
+  },
+  "contacto_celular": {
+    "titulo": "Contacto celular",
+    "respuesta": "983442995 - linkedin : https://www.linkedin.com/in/luis-quispe-inquil-070957131/"
+  },
   "fallback": {
     "titulo": "Sin información suficiente",
     "respuesta": "No tengo información suficiente en la base biográfica para responder esa pregunta con precisión. Puedes preguntarme sobre la biografía, experiencia, habilidades, proyectos, educación, cloud, machine learning, banca, minería o propuesta de valor de Luis."
   }
+
 }

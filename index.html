@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Luis BioChat AI</title>
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='18' y='28' width='64' height='50' rx='14' fill='%234b63d1'/%3E%3Ccircle cx='38' cy='52' r='7' fill='white'/%3E%3Ccircle cx='62' cy='52' r='7' fill='white'/%3E%3Cpath d='M40 66h20' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M50 28V14' stroke='%234b63d1' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='12' r='6' fill='%234b63d1'/%3E%3C/svg%3E"
+  />
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-badge">
+        <span class="hero-icon">🤖</span>
+        <span>Portafolio IA · NLP Model</span>
+      </div>
+
+      <h1>Luis BioChat AI</h1>
+
+      <p class="subtitle">
+        Chatbot biográfico con modelo NLP entrenado para responder preguntas sobre Luis Quispe Inquil.
+      </p>
+    </section>
+
+    <section class="workspace">
+      <aside class="panel architecture-panel">
+        <div class="panel-header">
+          <p class="eyebrow">Arquitectura</p>
+          <h2>Modelo de IA</h2>
+          <p>
+            Flujo local de inferencia: la pregunta se transforma, se clasifica y se conecta con la base biográfica.
+          </p>
+        </div>
+
+        <div class="architecture-flow">
+          <article class="architecture-step">
+            <span class="step-number">01</span>
+            <div>
+              <h3>Pregunta del usuario</h3>
+              <p><strong>Qué significa:</strong> Entrada escrita en lenguaje natural.</p>
+              <p><strong>Uso:</strong> Capturar lo que el visitante quiere saber sobre Luis.</p>
+            </div>
+          </article>
+
+          <article class="architecture-step">
+            <span class="step-number">02</span>
+            <div>
+              <h3>Normalización NLP</h3>
+              <p><strong>Qué significa:</strong> Limpieza de texto, tildes, signos y mayúsculas.</p>
+              <p><strong>Uso:</strong> Reducir ruido antes de aplicar el modelo.</p>
+            </div>
+          </article>
+
+          <article class="architecture-step">
+            <span class="step-number">03</span>
+            <div>
+              <h3>TF-IDF</h3>
+              <p><strong>Qué significa:</strong> Conversión del texto a números según relevancia de palabras.</p>
+              <p><strong>Uso:</strong> Representar preguntas como vectores comparables.</p>
+            </div>
+          </article>
+
+          <article class="architecture-step">
+            <span class="step-number">04</span>
+            <div>
+              <h3>Regresión logística</h3>
+              <p><strong>Qué significa:</strong> Modelo supervisado que clasifica la intención.</p>
+              <p><strong>Uso:</strong> Decidir qué tema responde mejor a la pregunta.</p>
+            </div>
+          </article>
+
+          <article class="architecture-step">
+            <span class="step-number">05</span>
+            <div>
+              <h3>Base biográfica JSON</h3>
+              <p><strong>Qué significa:</strong> Conocimiento estructurado sobre Luis.</p>
+              <p><strong>Uso:</strong> Recuperar una respuesta controlada y profesional.</p>
+            </div>
+          </article>
+        </div>
+      </aside>
+
+      <section class="chat-card">
+        <div class="chat-header">
+          <div>
+            <p class="eyebrow">Asistente biográfico</p>
+            <h2>Robot de conversación</h2>
+            <p>Pregunta sobre experiencia, habilidades, proyectos, educación, cloud o machine learning.</p>
+          </div>
+        </div>
+
+        <div class="robot-stage">
+          <div id="robotAvatar" class="robot-avatar robot-idle">
+            <div class="robot-antenna"></div>
+            <div class="robot-head">
+              <span class="robot-eye left"></span>
+              <span class="robot-eye right"></span>
+              <span class="robot-mouth"></span>
+            </div>
+            <div class="robot-body">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="robot-info">
+            <p id="robotStatus">Robot listo para conversar.</p>
+            <small>Proyecto con despliegue web by: Luis Quispe</small>
+          </div>
+        </div>
+
+        <div id="chatMessages" class="chat-messages">
+          <div class="message bot">
+            Hola, soy el robot biográfico de Luis. Puedes preguntarme sobre su experiencia, habilidades técnicas, proyectos, formación o propuesta de valor.
+          </div>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Escribe tu pregunta..."
+            autocomplete="off"
+            required
+          />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <aside class="panel examples-panel">
+        <div class="panel-header">
+          <p class="eyebrow">Guía de uso</p>
+          <h2>Ejemplos</h2>
+          <p>
+            Usa estas preguntas para probar cómo el modelo detecta intenciones y recupera respuestas.
+          </p>
+        </div>
+
+        <div class="example-group">
+          <h3>Perfil</h3>
+          <button class="example-btn" data-question="¿Quién es Luis Quispe Inquil?">
+            ¿Quién es Luis Quispe Inquil?
+          </button>
+          <button class="example-btn" data-question="¿Cuál es el perfil de Luis como data scientist?">
+            ¿Cuál es su perfil como data scientist?
+          </button>
+        </div>
+
+        <div class="example-group">
+          <h3>Habilidades</h3>
+          <button class="example-btn" data-question="¿Luis conoce Python?">
+            ¿Luis conoce Python?
+          </button>
+          <button class="example-btn" data-question="¿Luis maneja SQL?">
+            ¿Luis maneja SQL?
+          </button>
+          <button class="example-btn" data-question="¿Luis sabe machine learning?">
+            ¿Luis sabe machine learning?
+          </button>
+        </div>
+
+        <div class="example-group">
+          <h3>Experiencia</h3>
+          <button class="example-btn" data-question="¿Cuánta experiencia tiene Luis?">
+            ¿Cuánta experiencia tiene Luis?
+          </button>
+          <button class="example-btn" data-question="¿Luis ha trabajado en banca?">
+            ¿Luis ha trabajado en banca?
+          </button>
+          <button class="example-btn" data-question="¿Luis tiene experiencia en minería?">
+            ¿Luis tiene experiencia en minería?
+          </button>
+        </div>
+
+        <div class="example-group">
+          <h3>Valor profesional</h3>
+          <button class="example-btn" data-question="¿Por qué contratar a Luis?">
+            ¿Por qué contratar a Luis?
+          </button>
+          <button class="example-btn" data-question="¿Qué proyectos predictivos tiene Luis?">
+            ¿Qué proyectos predictivos tiene Luis?
+          </button>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./js/model_inference.js"></script>
+  <script src="./js/response_builder.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

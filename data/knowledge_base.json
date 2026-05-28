@@ -1,0 +1,94 @@
+{
+  "biografia": {
+    "titulo": "Biografía profesional",
+    "respuesta": "Luis Quispe Inquil es un profesional peruano orientado a ciencia de datos, ingeniería de datos, automatización, analítica e inteligencia artificial aplicada al negocio. Su perfil combina conocimientos técnicos en Python, SQL, Power BI, cloud y machine learning con una visión práctica para resolver problemas reales en banca, minería y procesos empresariales."
+  },
+  "experiencia_general": {
+  "titulo": "Experiencia profesional general",
+  "respuesta": "Luis cuenta con experiencia profesional en análisis de datos, automatización de procesos, reportería, validación de información, construcción de soluciones con Python y SQL, y apoyo a la toma de decisiones mediante datos. Su experiencia se ha desarrollado principalmente en entornos de banca, analítica, riesgo, cobranzas, minería y procesos empresariales donde la calidad de información, la eficiencia operativa y la generación de valor para el negocio son aspectos clave."
+  },
+  "experiencia_datos": {
+    "titulo": "Experiencia en datos",
+    "respuesta": "Luis tiene experiencia trabajando con datos desde distintas etapas del ciclo analítico: extracción, limpieza, transformación, validación, análisis exploratorio, automatización, modelado y visualización. Utiliza herramientas como Python, SQL, pandas, Excel avanzado y Power BI para convertir información dispersa en soluciones útiles para el negocio."
+  },
+  "experiencia_banca": {
+    "titulo": "Experiencia en banca y sector financiero",
+    "respuesta": "Luis ha desarrollado experiencia en el sector financiero, especialmente en procesos relacionados con riesgo, cobranzas, automatización, análisis de información, SQL, Python, Excel avanzado y reportería. Esta experiencia le permite comprender tanto la necesidad técnica de trabajar con datos confiables como la importancia de generar soluciones alineadas a objetivos de negocio."
+  },
+  "experiencia_mineria": {
+    "titulo": "Experiencia en minería",
+    "respuesta": "Luis también ha trabajado en iniciativas analíticas relacionadas con minería, procesamiento de datos operativos, análisis de variables geometalúrgicas, fragmentación, modelos predictivos y generación de información para apoyar decisiones operativas. Su enfoque está en aplicar ciencia de datos a problemas reales del negocio minero."
+  },
+  "habilidades": {
+    "titulo": "Habilidades técnicas",
+    "respuesta": "Las principales habilidades técnicas de Luis incluyen Python, SQL, Power BI, Excel avanzado, automatización de procesos, análisis de datos, modelado predictivo, machine learning aplicado, procesamiento de archivos, validación de información, ETL y construcción de soluciones orientadas a negocio."
+  },
+  "habilidades_python": {
+  "titulo": "Python",
+  "respuesta": "Sí. Luis conoce y utiliza Python como una de sus principales herramientas de trabajo. Lo aplica en análisis de datos, automatización de procesos, procesamiento de archivos, limpieza y validación de información, construcción de scripts, modelos predictivos, machine learning y desarrollo de pipelines. También lo usa con librerías como pandas, numpy, scikit-learn y herramientas de visualización o procesamiento según el caso de uso."
+  },
+  "habilidades_sql": {
+  "titulo": "SQL y bases de datos",
+  "respuesta": "Sí. Luis trabaja con SQL para extracción, transformación, validación y análisis de información. Tiene experiencia construyendo consultas, realizando cruces entre tablas, optimizando procedimientos almacenados, preparando información para reportería y automatizando procesos que dependen de bases de datos. SQL es una de sus herramientas clave para análisis, ingeniería de datos y validación de información empresarial."
+  },
+  "habilidades_bi": {
+    "titulo": "Business Intelligence y visualización",
+    "respuesta": "Luis tiene experiencia en reportería, análisis visual, dashboards, Excel avanzado y Power BI. Su enfoque en BI consiste en transformar datos en indicadores claros que permitan monitorear procesos, detectar oportunidades de mejora y apoyar la toma de decisiones."
+  },
+  "habilidades_cloud": {
+    "titulo": "Cloud y arquitectura de datos",
+    "respuesta": "Luis tiene interés y experiencia progresiva en soluciones cloud, especialmente AWS y Azure. Su enfoque está orientado a arquitectura de datos, pipelines, automatización, servicios serverless, almacenamiento, despliegue de soluciones analíticas y preparación para certificaciones cloud."
+  },
+  "habilidades_machine_learning": {
+  "titulo": "Machine Learning e inteligencia artificial",
+  "respuesta": "Luis aplica machine learning e inteligencia artificial para resolver problemas de negocio mediante modelos predictivos, clasificación, análisis de patrones, validación de resultados y automatización inteligente. Ha trabajado con enfoques de modelado usando Python y librerías como scikit-learn, además de explorar modelos para predicción, series de tiempo, clasificación y análisis aplicado. En este proyecto, por ejemplo, utiliza un modelo NLP entrenado para clasificar preguntas sobre su biografía y seleccionar la respuesta correspondiente."
+  },
+  "proyectos": {
+    "titulo": "Proyectos destacados",
+    "respuesta": "Luis ha trabajado en proyectos relacionados con automatización de procesos, análisis de datos, procesamiento de archivos, reportería, modelos predictivos, validaciones de migración, pipelines de datos y soluciones aplicadas a banca y minería. Sus proyectos suelen combinar Python, SQL, Power BI y buenas prácticas de ingeniería."
+  },
+  "proyectos_automatizacion": {
+    "titulo": "Proyectos de automatización",
+    "respuesta": "Luis ha desarrollado automatizaciones orientadas a reducir trabajo manual, mejorar tiempos de procesamiento, validar información y generar entregables de forma más eficiente. Ha trabajado con Python, Excel, SQL y procesos de negocio donde la automatización permite liberar tiempo operativo y mejorar la calidad de los resultados."
+  },
+  "proyectos_modelos_predictivos": {
+    "titulo": "Proyectos de modelos predictivos",
+    "respuesta": "Luis ha trabajado con modelos predictivos y análisis de series de tiempo, aplicando técnicas de machine learning para estimar comportamientos, evaluar métricas y comparar enfoques de modelado. Su interés está en construir modelos que no solo tengan buen desempeño técnico, sino que también puedan aportar valor al negocio."
+  },
+  "educacion": {
+    "titulo": "Educación y formación",
+    "respuesta": "Luis cuenta con formación orientada a tecnología, datos, analítica, inteligencia artificial, ingeniería de software, cloud y soluciones empresariales. Su desarrollo profesional combina aprendizaje académico, proyectos prácticos y especialización continua en herramientas modernas de datos."
+  },
+  "certificaciones": {
+    "titulo": "Certificaciones y aprendizaje continuo",
+    "respuesta": "Luis mantiene una orientación constante al aprendizaje continuo, especialmente en ciencia de datos, ingeniería de datos, cloud, inteligencia artificial y arquitectura de soluciones. Tiene interés en certificaciones relacionadas con AWS, Azure, analítica y tecnologías aplicadas al negocio."
+  },
+  "propuesta_valor": {
+    "titulo": "Propuesta de valor",
+    "respuesta": "La propuesta de valor de Luis está en combinar ciencia de datos, ingeniería de datos y entendimiento del negocio para construir soluciones prácticas, automatizadas y medibles. Su perfil es valioso para equipos que necesitan transformar datos en decisiones, mejorar procesos, reducir trabajo manual y aplicar inteligencia artificial de forma útil."
+  },
+  "perfil_data_scientist": {
+  "titulo": "Perfil como científico de datos",
+  "respuesta": "Luis tiene un perfil orientado a ciencia de datos porque combina análisis, programación, estadística aplicada, machine learning, automatización e interpretación de resultados para resolver problemas reales. Su enfoque no se limita a entrenar modelos, sino que busca conectar la solución técnica con el impacto operativo y estratégico para el negocio. Puede trabajar desde la exploración de datos hasta el modelado, evaluación, explicación y comunicación de resultados."
+  },
+  "perfil_data_engineer": {
+  "titulo": "Perfil como ingeniero de datos",
+  "respuesta": "Luis también tiene una fuerte orientación hacia ingeniería de datos. Trabaja con extracción, transformación, validación, integración y preparación de información usando Python, SQL y procesos automatizados. Su experiencia en pipelines, procesamiento de archivos, validaciones, reportería y bases de datos le permite construir estructuras de datos confiables para análisis, modelos predictivos y toma de decisiones."
+  },
+  "objetivos_profesionales": {
+    "titulo": "Objetivos profesionales",
+    "respuesta": "Luis busca consolidarse en roles relacionados con ciencia de datos, ingeniería de datos, machine learning, cloud y liderazgo técnico. Su objetivo es participar en proyectos donde pueda construir soluciones de datos robustas, escalables y alineadas a necesidades reales del negocio."
+  },
+  "contacto": {
+    "titulo": "Contacto",
+    "respuesta": "Puedes contactar a Luis mediante los canales publicados en su portafolio profesional, como LinkedIn, correo público o CV descargable. Esta sección debe completarse con los datos de contacto que Luis decida mostrar públicamente."
+  },
+  "cv": {
+    "titulo": "CV profesional",
+    "respuesta": "El CV de Luis resume su experiencia en datos, automatización, banca, minería, Python, SQL, Power BI, cloud e inteligencia artificial aplicada. Desde el portafolio se puede habilitar un botón para descargar o visualizar su CV actualizado."
+  },
+  "fallback": {
+    "titulo": "Sin información suficiente",
+    "respuesta": "No tengo información suficiente en la base biográfica para responder esa pregunta con precisión. Puedes preguntarme sobre la biografía, experiencia, habilidades, proyectos, educación, cloud, machine learning, banca, minería o propuesta de valor de Luis."
+  }
+}
